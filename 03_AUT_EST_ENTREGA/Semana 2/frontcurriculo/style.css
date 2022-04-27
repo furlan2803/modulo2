@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace;
+}
+
+body{
+  background-color: rgb(249, 249, 249);
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(200,200,200);
+  z-index: 1000 !important;
+}
+
+.menu{
+  background-color: rgb(255, 255, 255);;
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #495057;
+}
+
+.principal{
+  background-color: rgb(98, 209, 172);;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.principal h1{
+  color: white;
+  font-size: 45px;
+}
+
+.principal img{
+  width: 20%;
+}
+
+.atuacao{
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.border{
+  margin: 0px 20px 0px 20px;
+}
+
+.text-home{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -5%;
+  z-index: 1;
+  background-color: white;
+  padding-top: 2%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgb(255, 243, 221);
+}
+
+.text-home h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.text-home p{
+  text-align: left;
+  font-size: 20px;
+}
+
+.text-dados{
+  text-align: center;
+  font-size: 22px;
+}
+
+.email{
+  color:#000000
+}
+
+.email:hover{
+  color:rgb(90, 183, 152);
+}
+
+.text-number{
+  color:#000000;
+}
+
+.text-number:hover{
+  color:rgb(90, 183, 152);
+}
+
+.main_text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #495057;
+  color: rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+  background-color:rgb(98, 209, 172);
+}
+
+.img-icon{
+  width: 50%;
+}
+
+.text-principal{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  color:rgb(98, 209, 172);
+  font-size: 38px;
+}
+
+h4{
+    color:rgb(82, 82, 82);
+    font-size: 22px;
+}
+
+h5{
+    color:rgb(41, 41, 41);
+    font-size: 22px;
+}
+
+.text-experiencia{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    color:rgb(98, 209, 172);
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .text-certificacao{
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .text-certificacao img{
+    width: 10%;
+  }
+
+  .publicacao{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card img{
+    width: 40%;
+  }
+
+  .button {
+    background-color:rgb(98, 209, 172);
+    border-radius: 40px;
+    color: rgb(255, 254, 254);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #495057;
+    color:rgb(255, 255, 255);
+}
