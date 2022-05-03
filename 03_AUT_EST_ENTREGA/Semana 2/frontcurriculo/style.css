@@ -30,7 +30,7 @@ header{
 }
 
 .principal{
-  background-color: rgb(98, 209, 172);;
+  background-color: rgb(98, 209, 172);
   height: 60vh;
   display: flex;
   align-items: center;
@@ -193,10 +193,6 @@ h5{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .card img{
-    width: 40%;
   }
 
   .button {
