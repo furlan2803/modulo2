@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forms{
+    width: 97%;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control{
+    font-size: 20px;
+    width: 400px;
+    color: black;
+}
+
+.btn {
+    background-color: coral;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(253, 157, 122);
+    color: white;
+}
+
+.principal{
+    background-color: coral;
+    height: 30vh;
+}
+
+.atuacao{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-home{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -5%;
+    z-index: 1;
+    background-color: white;
+    padding: 2%;
+}
+
+.text-home h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-home p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.text-destaque{
+    color: coral;
+}
+
+.resultado{
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 30px;
+  }
