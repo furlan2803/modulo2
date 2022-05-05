@@ -1,4 +1,4 @@
-const btn = document.getElementById('btn');
+//const btn = document.getElementById('btn');
 
 function calculo(){
     // alert( 'teste click') - Teste do clique do botão
@@ -11,15 +11,15 @@ function calculo(){
         const valorHmax = (valor * valor / (2 * 10)).toFixed(2);
         const valorTs = (valor / 10).toFixed(2);
 
-        resultado.textContent = valorHmax;
-        resultado2.textContent = valorTs;
+        resultado.innerHTML = valorHmax;
+        resultado2.innerHTML = valorTs;
     }
     else{
         alert('Preencha o campo de "Velocidade Inicial"')
     }
 }
 
-btn.addEventListener('click', calculo)
+//btn.addEventListener('click', calculo)
 
 
 
