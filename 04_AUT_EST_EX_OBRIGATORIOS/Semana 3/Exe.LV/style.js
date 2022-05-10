@@ -1,5 +1,3 @@
-//const btn = document.getElementById('btn');
-
 function calculo(){
     // alert( 'teste click') - Teste do clique do botão
     const valor = document.getElementById('valor').value;
@@ -18,13 +16,3 @@ function calculo(){
         alert('Preencha o campo de "Velocidade Inicial"')
     }
 }
-
-//btn.addEventListener('click', calculo)
-
-
-
-// valorHmax = vo^2 / 2*g
-
-// g = 10 m/s^2
-
-// ts = v0 / g
