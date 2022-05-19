@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.valor{
+    width: 100%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.form2{
+    margin-top: 2vh;
+}
+
+.operadores{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color: white;
+    font-size: 22px;
+}
