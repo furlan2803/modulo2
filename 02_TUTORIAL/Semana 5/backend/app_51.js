@@ -6,6 +6,7 @@ const hostname = '127.0.0.1';
 const port = 3051;
 const sqlite3 = require('sqlite3').verbose(); 
 const DBPATH = 'dbUser.db'; 
+app.use(express.static("../frontend/"));
 app.use(express.json());
 
 app.get('/user1', (req, res) => {
