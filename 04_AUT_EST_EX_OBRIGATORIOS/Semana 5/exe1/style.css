@@ -3,30 +3,101 @@
     padding: 0;
 }
 
+.principal{
+    background-color: aquamarine;
+    height: 30vh;
+}
+
+.text-home{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -5%;
+    z-index: 1;
+    background-color: white;
+    padding: 2%;
+}
+
+.text-home h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-home p{
+    text-align: left;
+    font-size: 21px;
+}
+
 .valor{
+    padding-top: 4%;
     width: 100%;
-    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.valor1{
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.form-1, .form-2{
+    margin-right: 50px;
+    padding: 4%;
+}
+
+.operadores{
     display: flex;
     justify-content: center;
 }
 
-.form2{
-    margin-top: 2vh;
+.operadores li{
+    margin-right: 30px;
 }
 
-.operadores{
-    width: 60%;
-    margin: auto;
+.textForm{
+    margin-bottom: 10px;
+}
+
+.text{
+    text-align: center;
+    margin-right: 5px;
+}
+
+.form3{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content:center;
+    padding: 1%;
+    width: 40%;
+}
+
+.btnAlinhamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn{
+    background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
 }
 
 .btn:hover{
-    color: white;
-    font-size: 22px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+
+.resultado{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }

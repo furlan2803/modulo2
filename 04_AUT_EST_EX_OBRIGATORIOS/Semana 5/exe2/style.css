@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-color: aquamarine;
+    height: 30vh;
+}
+
+.text-home{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -5%;
+    z-index: 1;
+    background-color: white;
+    padding: 2%;
+}
+
+.text-home h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-home p{
+    text-align: left;
+    font-size: 21px;
+}
+
+.btnCalc{
+    display: flex;
+    justify-content: center;
+}
+
+.numerodigitado{
+    padding: 1%;
+    font-size: 22px !important;
+    width: 200px;
+}
+
+.text{
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+.textresult{
+    text-align: center;
+}
+
+.numeroValor{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+
+.textResultado{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.resultado{
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
