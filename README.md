@@ -10,4 +10,4 @@ Minhas entregas estão definidas aqui:
 ## Obrigatórios
 <a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 06/05/2022 - Resolução de problemas com algoritmos - semana 3</a>
 <br>
-<a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 10/05/2022 - Resolução de problemas com algoritmos - semana 5</a>
+<a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 20/05/2022 - Resolução de problemas com algoritmos - semana 5</a>
