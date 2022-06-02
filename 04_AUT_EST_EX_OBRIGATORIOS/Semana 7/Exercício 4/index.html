@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <section class="principal">
+        <!-- background -->
+    </section>
+
+<section class="text-home">
+    <section>
+        <h1>Exercício 4</h1>
+        <br>
+        <p>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro) e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:
+        <br>
+        <br>
+            - Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.
+        <br>
+        <br>
+            - Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</p>
+    </section>
+    <section>
+        <div class="valor">
+            <div>
+                <p class="textForm"><b>NÚMERO DE PESSOAS:</b></p>
+                <input type="number" class="form-1" id="form1" name="pessoas">
+            </div>
+            <br>
+            <br>
+            <div>
+                <p class="textForm"><b>PERÍODO:</b></p>
+                <p class="textForm"> Diurno ou Noturno</p>
+                <input type="text" class="form-2" id="form2" name="horario" placeholder="Digite o período">
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <button type="button" id="btn" class="btn btn-info" value="validar"  onclick="btnEnvio()">Enviar</button>
+    </section>
+    <br>
+    <br>
+</section>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
