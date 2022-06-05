@@ -7,19 +7,23 @@ function btnEnvio(){
     var valor2 = text2.value;
 
     if((valor2 == "Diurno" || valor2 == "diurno") & (valor1 <= 50)){
-        alert("R$ 200,00 por pessoa")
+        var total = 200 * valor1;
+        alert("R$ 200,00 por pessoa" + "O total da viagem é R$ " + total)
     }
     else if((valor2 == "Diurno" || valor2 == "diurno" ) & (valor1 > 50)){
         var aux = 200 - (200 * 0.4);
-        alert("R$ " + aux + ",00 por pessoa")
+        var total = aux * valor1;
+        alert("R$ " + aux + ",00 por pessoa" + "O total da viagem é R$ " + total)
     }
 
     else if((valor2 == "Noturno" || valor2 == "noturno") & (valor1 <= 50)){
-        alert("R$ 100,00 por pessoa")
+        var total = 100 * valor1;
+        alert("R$ 100,00 por pessoa" + "O total da viagem é R$ " + total)
     }
     else if((valor2 == "Noturno" || valor2 == "noturno" ) & (valor1 > 50)){
         var aux = 100 - (100 * 0.2);
-        alert("R$ " + aux + ",00 por pessoa")
+        var total = aux * valor1;
+        alert("R$ " + aux + ",00 por pessoa" + "O total da viagem é R$ " + total)
     }
     else{
         alert("\nValores Inválidos! \n\n Digite Novamente!")

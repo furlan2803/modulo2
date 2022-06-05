@@ -61,3 +61,61 @@
     color: rgb(0, 0, 0);
 }
 
+.btn2{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 10vh;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+.btn2:hover{
+    background-color:  rgb(255, 136, 127);
+    color: rgb(0, 0, 0);
+}
+
+.estilo{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    text-decoration: none;
+    outline: none;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 2%;
+    border: 0.5%;
+}
+
+tr{
+    font-size: 20px;
+}
+
+table tr :first-child{
+    padding: 1.5%;
+}
+
+.estilo2{
+    border-top-left-radius: 20px;
+    padding-left: 20px !important;
+}
+
+.estilo3{
+    border-top-right-radius: 20px;
+}
+
+.tituloTabela{
+    background-color: rgb(255, 136, 127);
+    border-collapse: collapse;
+    border: none;
+}
+
+.tabela{
+    border-radius: 10px;
+    padding-left: 6%;
+    padding-right: 2%;
+    text-align: center;
+}

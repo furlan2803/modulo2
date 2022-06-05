@@ -38,16 +38,32 @@
         <div class="valor">
             <div>
                 <p class="textForm"><b>QUANTIDADE DE ALUNOS:</b></p>
-                <input type="number" class="form-1" id="form1" name="pessoas">
+                <input type="number" class="form-1" id="form1" name="alunos">
             </div>
         </div>
     </section>
     <br>
     <section>
-        <button type="button" id="btn" class="btn btn-info" value="validar"  onclick="btnEnvio()">Adicionar</button>
+        <button type="button" id="btn" class="btn btn-info" value="alunosadd"  onclick="btnEnvio()">Adicionar</button>
     </section>
     <br>
     <br>
+    <section class="tabela">
+        <table style="width: 100%; margin-top: 50px; border-collapse: collapse;" id="table">
+            <tr class="tituloTabela">
+              <th class="estilo2">#ID</th>
+              <th>Nome Aluno</th>
+              <th>Nota Prova</th>
+              <th class="estilo3">Nota Trabalho</th>
+            </tr>
+          </table>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div id="resultados"></div>
+    </section>
 
 </section>
     <script type="text/javascript" src="./main.js"></script>
