@@ -7,6 +7,7 @@ function btnEnvio(){
 
     const TabelaNotas = document.getElementById("table");
 
+    // loop enquanto o número i for menor que o número de alunos, criando linhas no HTML
     for(let i = 0; i < valor; i++){
 
         TabelaNotas.innerHTML += `
@@ -21,6 +22,7 @@ function btnEnvio(){
         `
     }
 
+        // criar o botão para concluir
     TabelaNotas.innerHTML += `
 
         <br>
@@ -30,8 +32,10 @@ function btnEnvio(){
     `
 }
 
+// função quando o botão concluir for clicado
 function concluir(){
 
+    // variáveis utilizadas para os cálculos
     var array = [];
     var arrayProva = [];
     var arrayTrabalho = [];
@@ -48,18 +52,22 @@ function concluir(){
     
     for (let j = 0; j < parseInt(alunos.value); j++){
 
+        // variável responsável por pegar o nome dos alunos
         let nomeAluno = document.getElementById(`nome_aluno${j}`).value;
 
+        // variável para pegar o valor da prova dos alunos 
         let valorProva = document.getElementById(`prova_aluno${j}`);
         let notaProva = parseFloat(valorProva.value);
 
+        // variável para pegar o valor do trabalho dos alunos
         let valorTrabalho = document.getElementById(`trabalho_aluno${j}`);
         let notaTrabalho = parseFloat(valorTrabalho.value);
 
+        //calculo da média individual de cada aluno
         let media = ((notaProva * 2) + (notaTrabalho * 3)) / 5; 
         console.log("Media aluno individual " + media);
 
-
+        // Apresentação do resultado no HTML, dentro do loop, pois cada vez que passar vai mostrar um aluno cadastrado
         resultado.innerHTML += `
         
         <span>A média do aluno ${nomeAluno} com o id ${j} é ${media} \n\n</span> <br><br>
@@ -127,7 +135,7 @@ function concluir(){
     // Menor nota da provas
     console.log(menorNotaTrabalho);
 
-
+    // Apresentação do resultado no HTML
   
     resultado.innerHTML += `
         
