@@ -12,6 +12,8 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/furlan2803/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%206"> 25/05/2022 - Exercício de personalização da Etapa 5</a>
 <br>
 <a href="https://github.com/furlan2803/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%207"> 02/06/2022 - Exercício de personalização da Etapa 6</a>
+<br>
+<a href="https://github.com/furlan2803/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%208"> 08/06/2022 - Exercício de personalização da Etapa 7</a>
 
 ## Obrigatórios
 <a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 06/05/2022 - Resolução de problemas com algoritmos - semana 3</a>
