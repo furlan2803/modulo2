@@ -31,29 +31,28 @@ $("#myFunction").click(function(){
     console.log("clicou")
 });
 
+ 
+const tableBody = document.getElementById("eventos2");
 
+$.ajax({
+    url: "http://127.0.0.1:3022/usersvisualizar",
+    type: 'GET',
+    success: data => {
+        data.forEach(element => {
+            const div = document.createElement("li");
+        div.innerHTML = `
+       
+            <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                <h3>${element.Nome}</h3>
+                <p>${element.Tipo}</p>
+                <p>${element.Local}</p>
+                <p>${element.Ano}</p>
+                <p>${element.Duracao}</p>
+            </li>
 
-
-function visualizarEventos() {
-    
-    const inputTituloAssistidos = document.querySelector("input[name='titulo']").value;
-    const inputDescricaoAssistidos = document.querySelector("input[name='data']").value;
-
-    var settingss = {
-        "url": "http://127.0.0.1:3081/cadastroinsert",
-        "method": "POST",
-        "timeout": 0,
-        "data": {
-            "nomeCad": inputTituloAssistidos,
-            "nascimentoCad": inputDescricaoAssistidos,
-            "chamadoCad": inputTituloAssistidos,
-            "documentoCad": inputTituloAssistidos
-        }
-      };
-      
-      $.ajax(settingss).done(response => {
-          console.log(response)
-      });
-
-      console.log("foi")
-}
+        `
+            tableBody.appendChild(div);
+        });
+    }
+});
