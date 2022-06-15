@@ -31,6 +31,9 @@ Minhas entregas estão definidas aqui:
 <br>
 <a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 05/06/2022 - Resolução de problemas com algoritmos - semana 7</a>
 <p>Exercícios usando Javascript</p>
+<br>
+<a href="https://github.com/furlan2803/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%209"> 15/06/2022 - Resolução de problemas com algoritmos - semana 9</a>
+<p>Exercícios usando Javascript</p>
 
 ## Opcional - Usuário Beecrowd : gtorres34
 <a href="https://www.beecrowd.com.br/judge/pt/disciplines/view/8969"> 04/06/2022 - Resolução de problemas com algoritmos - semana 3</a>
